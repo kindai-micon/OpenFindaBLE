@@ -1,0 +1,6 @@
+@OpenFindaBLE_HostAddress = http://localhost:5178
+
+GET {{OpenFindaBLE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
