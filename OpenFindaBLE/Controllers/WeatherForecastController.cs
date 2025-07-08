@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace OpenFindaBLE.Controllers;
+namespace OpenFindaBLE.Backend.Controllers;
 
 [ApiController]
 [Route("[controller]")]
