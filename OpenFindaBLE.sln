@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFindaBLE", "OpenFindaBLE\OpenFindaBLE.csproj", "{746DF8DC-F6F2-44EC-8582-8AEA0067F2E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFindaBLE.Backend", "OpenFindaBLE\OpenFindaBLE.Backend.csproj", "{746DF8DC-F6F2-44EC-8582-8AEA0067F2E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFindaBLE.AppHost", "OpenFindaBLE.AppHost\OpenFindaBLE.AppHost.csproj", "{0E092FDB-344E-432C-8A27-99FA9944FF7E}"
 EndProject

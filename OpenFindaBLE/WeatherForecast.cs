@@ -1,4 +1,4 @@
-namespace OpenFindaBLE;
+namespace OpenFindaBLE.Backend;
 
 public class WeatherForecast
 {

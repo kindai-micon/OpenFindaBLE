@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OpenFindaBLE\OpenFindaBLE.csproj" />
+    <ProjectReference Include="..\OpenFindaBLE\OpenFindaBLE.Backend.csproj" />
   </ItemGroup>
 
 </Project>
