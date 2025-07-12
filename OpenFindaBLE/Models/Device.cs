@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OpenFindaBLE.Backend.Models
 {
@@ -6,11 +7,9 @@ namespace OpenFindaBLE.Backend.Models
     {
         public byte[]? EncryptionKey { get; set; }
         public byte[]? VarificationKey { get; set; }
-        public Device()
-        {
-            EncryptionKey = new byte[32]; // Default size for AES-256
-            VarificationKey = new byte[32]; // Default size for AES-256
-        }
-
+        public List<TrackLog> TrackLog { get; set; } = new List<TrackLog>();
+        [ForeignKey(nameof(UserDevice))]
+        public UserDevice? UserDevice { get; set; }
     }
+
 }
