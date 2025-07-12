@@ -11,7 +11,7 @@ namespace OpenFindaBLE.Backend.Models
 
         public BaseEntity()
         {
-            Id = = Guid.NewGuid();
+            Id = Guid.NewGuid();
             Created = DateTime.UtcNow;
             Updated = DateTime.UtcNow;
         }
