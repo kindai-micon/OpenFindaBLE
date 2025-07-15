@@ -14,6 +14,7 @@ namespace OpenFindaBLE.Backend.Models
         public Device Device { get; set; }
         public Attributes Attribute { get; set; }
     }
+    [Flags]
     public enum Attributes
     {
         None,
