@@ -16,6 +16,6 @@ namespace OpenFindaBLE.Backend.Models
 
         public DateTime Created { get; set; } = DateTime.UtcNow;
         public DateTime Updated { get; set; } = DateTime.UtcNow;
-
+        public List<UserDevice> UserDevices { get; set; } = new List<UserDevice>();
     }
 }
