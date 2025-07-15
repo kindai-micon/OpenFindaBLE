@@ -1,4 +1,6 @@
-﻿namespace OpenFindaBLE.Backend.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace OpenFindaBLE.Backend.Models
 {
 	public class TrackLog : BaseEntity
 	{
@@ -12,6 +14,8 @@
 		public double GyroZ { get; set; }
 		public DateTime ReceiveTime { get; set; }
 		public int Reliability { get; set; }
+		[ForeignKey(nameof(Device))]
 		public Guid DeviceId { get; set; }
+		public Device Device { get; set; }
 	}
 }
